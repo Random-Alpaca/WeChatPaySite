@@ -1,0 +1,26 @@
+export const nav = {
+  en: {
+    brand: "Jacky Xue · WeChat Pay",
+    benefits: "Benefits",
+    pricing: "Pricing",
+    calculator: "Savings",
+    comparison: "Compare",
+    howItWorks: "How it works",
+    faq: "FAQ",
+    contact: "Contact",
+    cta: "Get started",
+    switchTo: "中文",
+  },
+  zh: {
+    brand: "薛先生 · 微信支付",
+    benefits: "优势",
+    pricing: "费率",
+    calculator: "节省",
+    comparison: "对比",
+    howItWorks: "开通流程",
+    faq: "常见问题",
+    contact: "联系",
+    cta: "立即开始",
+    switchTo: "EN",
+  },
+} as const;
