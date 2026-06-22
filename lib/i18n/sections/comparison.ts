@@ -1,5 +1,6 @@
 export const comparison = {
   en: {
+    eyebrow: "Comparison",
     title: "How 1% compares",
     subtitle:
       "Canadian merchants typically pay 2.5–3.5% on card transactions. See how our flat 1% WeChat Pay rate stacks up.",
@@ -56,6 +57,7 @@ export const comparison = {
     ],
   },
   zh: {
+    eyebrow: "费率对比",
     title: "1% 费率对比",
     subtitle:
       "加拿大商家通常为刷卡交易支付 2.5–3.5% 的手续费。来看看我们 1% 统一费率的微信支付如何脱颖而出。",

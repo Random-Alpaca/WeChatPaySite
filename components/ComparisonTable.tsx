@@ -14,7 +14,7 @@ export default function ComparisonTable() {
       <div className="container-content">
         {/* Header */}
         <div className="mx-auto max-w-2xl text-center">
-          <p className="section-eyebrow">Comparison</p>
+          <p className="section-eyebrow">{c.eyebrow}</p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-ink-900 sm:text-4xl">
             {c.title}
           </h2>

@@ -34,7 +34,7 @@ export default function Pricing() {
       <div className="container-content">
         {/* Header */}
         <div className="mx-auto max-w-2xl text-center">
-          <p className="section-eyebrow">Pricing</p>
+          <p className="section-eyebrow">{p.eyebrow}</p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-ink-900 sm:text-4xl">
             {p.title}
           </h2>

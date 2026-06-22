@@ -88,7 +88,7 @@ export async function sendInquiryEmail(
   };
 
   if (opts.replyTo) {
-    sendOptions.reply_to = opts.replyTo;
+    sendOptions.replyTo = opts.replyTo;
   }
 
   const { error } = await resend.emails.send(sendOptions);

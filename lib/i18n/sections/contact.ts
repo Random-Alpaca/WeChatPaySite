@@ -49,6 +49,8 @@ export const contact = {
     agentTyping: "Assistant is typing…",
     agentSeedMessage:
       "Hi! I'm Jacky's intake assistant. I'll ask you a few quick questions so Jacky has everything he needs when he follows up with you. Ready to start? Could you tell me what type of business you run and what industry you're in?",
+    agentSendPrompt:
+      "Ready to forward your info to Jacky? He’ll reach out personally to discuss next steps.",
     agentSendToJacky: "Send my info to Jacky",
     agentSendSuccess: "Your info has been sent to Jacky — he'll reach out soon!",
     agentSendError: "Couldn't send. Please try the form or email directly.",
@@ -106,6 +108,7 @@ export const contact = {
     agentTyping: "助手正在输入……",
     agentSeedMessage:
       "您好！我是薛先生的入驻助手。我会向您提几个简短的问题，以便薛先生联系您时已掌握所有必要信息。准备好了吗？能告诉我您经营的是什么类型的业务，属于哪个行业吗？",
+    agentSendPrompt: "准备好将您的信息发送给薛先生了吗？他将亲自与您联系，讨论后续事宜。",
     agentSendToJacky: "将我的信息发送给薛先生",
     agentSendSuccess: "您的信息已发送给薛先生 — 他会尽快与您联系！",
     agentSendError: "发送失败，请使用表单或直接发送邮件。",

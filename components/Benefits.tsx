@@ -13,7 +13,7 @@ export default function Benefits() {
       <div className="container-content">
         {/* ── Header ── */}
         <div className="mx-auto max-w-2xl text-center">
-          <p className="section-eyebrow">Benefits</p>
+          <p className="section-eyebrow">{t.benefits.eyebrow}</p>
           <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-ink-900 sm:text-4xl">
             {t.benefits.title}
           </h2>

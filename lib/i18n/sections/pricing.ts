@@ -1,5 +1,6 @@
 export const pricing = {
   en: {
+    eyebrow: "Pricing",
     title: "Simple, transparent pricing",
     subtitle:
       "One flat rate. No contracts. No surprises. Everything you need to start accepting WeChat Pay in your store.",
@@ -19,6 +20,7 @@ export const pricing = {
     noHiddenFees: "No hidden fees",
   },
   zh: {
+    eyebrow: "费率",
     title: "简单透明的费率",
     subtitle:
       "统一费率，无需合同，没有意外收费。一切就绪，助您在店内轻松开通微信支付。",

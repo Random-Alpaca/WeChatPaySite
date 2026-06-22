@@ -3,6 +3,7 @@ export const faq = {
     eyebrow: "FAQ",
     title: "Frequently asked questions",
     subtitle: "Can't find what you're looking for? Reach out and we'll help.",
+    ctaLabel: "Still have questions? Contact us",
     items: [
       {
         q: "Who is eligible to accept WeChat Pay?",
@@ -38,6 +39,7 @@ export const faq = {
     eyebrow: "常见问题",
     title: "常见问题",
     subtitle: "如有其他问题，请随时联系。",
+    ctaLabel: "还有其他问题？联系我们",
     items: [
       {
         q: "哪些商家可以申请开通微信支付？",

@@ -1,5 +1,6 @@
 export const benefits = {
   en: {
+    eyebrow: "Benefits",
     title: "Why Vancouver merchants choose WeChat Pay at 1%",
     subtitle:
       "A straightforward, low-cost way to reach millions of Chinese-speaking customers — backed by a local partner who handles the setup for you.",
@@ -37,6 +38,7 @@ export const benefits = {
     ],
   },
   zh: {
+    eyebrow: "优势",
     title: "为何选择 1% 微信支付",
     subtitle:
       "低成本、高效率地触达数百万华人消费者，由本地合作伙伴全程协助开通，省心省力。",
