@@ -9,18 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // WeChat green accent paired with deep neutral ink
+        // Deep forest-green accent paired with deep neutral ink
         brand: {
-          50: "#eafaf0",
-          100: "#cdf2da",
-          200: "#9be6b6",
-          300: "#5fd488",
-          400: "#2fbf66",
-          500: "#07c160", // WeChat green
-          600: "#06a854",
-          700: "#068a47",
-          800: "#0a6c39",
-          900: "#0b5530",
+          50: "#eef6f1",
+          100: "#d3e8db",
+          200: "#a7d1b8",
+          300: "#74b393",
+          400: "#3f8e6a",
+          500: "#186440", // primary accent
+          600: "#135437",
+          700: "#0f432c",
+          800: "#0c3523",
+          900: "#08251a",
         },
         ink: {
           50: "#f6f7f8",
@@ -36,7 +36,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        sans: ["var(--font-geist-sans)", "system-ui", "sans-serif"],
       },
       borderRadius: {
         xl: "1rem",

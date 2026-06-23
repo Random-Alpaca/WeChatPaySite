@@ -54,7 +54,7 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="scroll-mt-20 overflow-hidden bg-gradient-to-b from-brand-50 via-white to-white pt-16 pb-20 sm:pt-20 sm:pb-28"
+      className="scroll-mt-20 overflow-hidden bg-brand-50 pt-16 pb-20 sm:pt-20 sm:pb-28"
     >
       <div className="container-content">
         <div className="flex flex-col gap-10 lg:flex-row lg:items-center lg:gap-16">
@@ -102,7 +102,7 @@ export default function Hero() {
             aria-hidden="true"
             className="hidden lg:block lg:w-80 xl:w-96 flex-shrink-0"
           >
-            <div className="relative rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 p-8 shadow-card">
+            <div className="relative rounded-2xl bg-brand-600 p-8 shadow-card">
               {/* Abstract QR-style grid */}
               <div className="grid grid-cols-7 grid-rows-7 gap-1.5">
                 {Array.from({ length: 49 }).map((_, i) => {
@@ -146,13 +146,13 @@ export default function Hero() {
                 })}
               </div>
 
-              {/* WeChat Pay label */}
+              {/* WeChat Pay & Alipay label */}
               <div className="mt-6 flex items-center justify-between">
                 <div className="space-y-0.5">
                   <p className="text-xs font-semibold uppercase tracking-widest text-brand-100">
-                    WeChat Pay
+                    WeChat Pay · Alipay
                   </p>
-                  <p className="text-lg font-bold text-white">微信支付</p>
+                  <p className="text-lg font-bold text-white">微信支付 · 支付宝</p>
                 </div>
                 <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/20 text-2xl font-black text-white">
                   微
@@ -166,9 +166,6 @@ export default function Hero() {
                   flat fee
                 </span>
               </div>
-
-              {/* Subtle glow effect */}
-              <div className="pointer-events-none absolute -bottom-6 -right-6 h-40 w-40 rounded-full bg-brand-400 opacity-20 blur-2xl" />
             </div>
           </div>
         </div>
