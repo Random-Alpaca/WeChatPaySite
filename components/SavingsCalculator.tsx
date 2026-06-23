@@ -228,8 +228,7 @@ export default function SavingsCalculator() {
       <div className="container-content">
         {/* Section header */}
         <div className="max-w-2xl">
-          <p className="section-eyebrow">{c.eyebrow}</p>
-          <h2 className="mt-2 text-3xl font-bold tracking-tight text-ink-900 sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-ink-900 sm:text-4xl">
             {c.title}
           </h2>
           <p className="mt-3 text-lg text-ink-600">{c.subtitle}</p>

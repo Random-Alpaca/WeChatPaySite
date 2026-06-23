@@ -10,8 +10,7 @@ export default function HowItWorks() {
     <section id="how-it-works" className="scroll-mt-20 bg-brand-50 py-20">
       {/* Header */}
       <div className="container-content text-center">
-        <p className="section-eyebrow">{t.howitworks.eyebrow}</p>
-        <h2 className="mt-3 text-3xl font-bold tracking-tight text-ink-900 sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-ink-900 sm:text-4xl">
           {t.howitworks.title}
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-base text-ink-600">

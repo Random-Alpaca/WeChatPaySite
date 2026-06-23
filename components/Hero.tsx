@@ -2,24 +2,6 @@
 
 import { useLanguage } from "@/lib/i18n/LanguageProvider";
 
-function CheckIcon() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 16 16"
-      fill="currentColor"
-      aria-hidden="true"
-      className="h-3.5 w-3.5 flex-shrink-0"
-    >
-      <path
-        fillRule="evenodd"
-        d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
-        clipRule="evenodd"
-      />
-    </svg>
-  );
-}
-
 /**
  * Renders the hero headline with the literal "1%" (or "1%") in brand-500 colour.
  * Works for both EN and ZH because both titles contain "1%".
@@ -60,9 +42,6 @@ export default function Hero() {
         <div className="flex flex-col gap-10 lg:flex-row lg:items-center lg:gap-16">
           {/* ── Left column: copy ── */}
           <div className="flex-1 space-y-6">
-            {/* Eyebrow */}
-            <p className="section-eyebrow">{t.hero.eyebrow}</p>
-
             {/* Headline */}
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-ink-900 sm:text-5xl lg:text-6xl">
               <HeadlineWithAccent text={t.hero.title} />
@@ -88,9 +67,8 @@ export default function Hero() {
               {chips.map((chip) => (
                 <span
                   key={chip}
-                  className="inline-flex items-center gap-1.5 rounded-full bg-brand-50 px-3 py-1.5 text-xs font-semibold text-brand-700 ring-1 ring-brand-100"
+                  className="inline-flex items-center rounded-full bg-brand-50 px-3 py-1.5 text-xs font-semibold text-brand-700 ring-1 ring-brand-100"
                 >
-                  <CheckIcon />
                   {chip}
                 </span>
               ))}

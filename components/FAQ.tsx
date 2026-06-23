@@ -10,8 +10,7 @@ export default function FAQ() {
     <section id="faq" className="scroll-mt-20 bg-ink-50 py-20">
       {/* Header */}
       <div className="container-content text-center">
-        <p className="section-eyebrow">{t.faq.eyebrow}</p>
-        <h2 className="mt-3 text-3xl font-bold tracking-tight text-ink-900 sm:text-4xl">
+        <h2 className="text-3xl font-bold tracking-tight text-ink-900 sm:text-4xl">
           {t.faq.title}
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-base text-ink-600">
@@ -76,33 +75,7 @@ export default function FAQ() {
 
       {/* Footer CTA */}
       <div className="container-content mt-12 flex justify-center">
-        <a
-          href="#contact"
-          className="btn-secondary inline-flex items-center gap-2"
-        >
-          {/* Envelope icon */}
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M2 4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4z"
-              stroke="currentColor"
-              strokeWidth="1.25"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M2 4.5l6 4 6-4"
-              stroke="currentColor"
-              strokeWidth="1.25"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+        <a href="#contact" className="btn-secondary">
           {t.faq.ctaLabel}
         </a>
       </div>
