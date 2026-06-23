@@ -16,9 +16,9 @@ export const contact = {
     // Option labels (used in cards/headings within each panel)
     formHeading: "Contact Form",
     formSubtext: "We'll reply within one business day.",
-    agentHeading: "Intake Assistant",
+    agentHeading: "Business Needs Interview",
     agentSubtext:
-      "A quick interview so Jacky has everything he needs before he calls you back.",
+      "Chat with our assistant — it'll learn about your business so Jacky can give you a fully personalized follow-up.",
     emailHeading: "Personal Email",
     emailSubtext:
       "Prefer to write directly? Send Jacky a message at his personal address.",
@@ -42,17 +42,17 @@ export const contact = {
 
     // Interview agent UI
     agentDisclaimer:
-      "This assistant only collects information — it won't quote prices or give advice. Jacky will follow up personally.",
+      "Disclaimer: this assistant gathers information about your business only. It cannot provide pricing quotes, rate negotiations, fee estimates, timelines, or any specific commitments. Jacky will follow up personally with details tailored to your situation.",
     agentInputPlaceholder: "Type your reply…",
     agentSendBtn: "Send",
     agentSending: "Sending…",
     agentTyping: "Assistant is typing…",
     agentSeedMessage:
-      "Hi! I'm Jacky's intake assistant. I'll ask you a few quick questions so Jacky has everything he needs when he follows up with you. Ready to start? Could you tell me what type of business you run and what industry you're in?",
+      "Hi! I’m Maya, Jacky’s assistant. I’d love to learn a bit about your business so Jacky can give you a really useful, personalized follow-up — rather than a generic pitch. To start: what kind of business do you run, and where are you located in Greater Vancouver?",
     agentSendPrompt:
-      "Ready to forward your info to Jacky? He’ll reach out personally to discuss next steps.",
+      "Ready to send your info to Jacky? He’ll reach out personally — no sales scripts, just a real conversation about whether WeChat Pay & Alipay make sense for you.",
     agentSendToJacky: "Send my info to Jacky",
-    agentSendSuccess: "Your info has been sent to Jacky — he'll reach out soon!",
+    agentSendSuccess: "Sent! Jacky will be in touch soon with a personalized follow-up.",
     agentSendError: "Couldn't send. Please try the form or email directly.",
     agentErrorFallback:
       "The assistant is temporarily unavailable. Please use the contact form or email Jacky directly.",
@@ -77,8 +77,8 @@ export const contact = {
     // Option labels
     formHeading: "联系表单",
     formSubtext: "我们将在一个工作日内回复。",
-    agentHeading: "入驻助手",
-    agentSubtext: "通过简短问答，让薛先生回电前就掌握您的全部情况。",
+    agentHeading: "业务需求访谈",
+    agentSubtext: "与我们的助手交流——了解您的业务后，薛先生可为您提供真正个性化的跟进服务。",
     emailHeading: "个人邮箱",
     emailSubtext: "更喜欢直接写信？请发邮件至薛先生的个人邮箱。",
 
@@ -101,16 +101,16 @@ export const contact = {
 
     // Interview agent UI
     agentDisclaimer:
-      "此助手仅用于收集信息 — 不提供报价或商业建议。薛先生会亲自跟进。",
+      "免责声明：此助手仅用于收集您的业务信息，无法提供报价、费率谈判、费用估算、时间表或任何具体承诺。薛先生将亲自联系您，根据您的实际情况提供专属方案。",
     agentInputPlaceholder: "请输入您的回复……",
     agentSendBtn: "发送",
     agentSending: "发送中……",
     agentTyping: "助手正在输入……",
     agentSeedMessage:
-      "您好！我是薛先生的入驻助手。我会向您提几个简短的问题，以便薛先生联系您时已掌握所有必要信息。准备好了吗？能告诉我您经营的是什么类型的业务，属于哪个行业吗？",
-    agentSendPrompt: "准备好将您的信息发送给薛先生了吗？他将亲自与您联系，讨论后续事宜。",
+      "您好！我是薛先生的助手 Maya。我希望先多了解一些您的业务情况，这样薛先生可以为您提供真正有价值的个性化跟进——而非千篇一律的介绍。首先请问：您经营的是什么类型的业务，店铺位于大温哥华的哪个区域？",
+    agentSendPrompt: "准备好将您的信息发送给薛先生了吗？他会亲自与您联系——不是套路式推销，而是认真聊聊微信支付与支付宝是否适合您的业务。",
     agentSendToJacky: "将我的信息发送给薛先生",
-    agentSendSuccess: "您的信息已发送给薛先生 — 他会尽快与您联系！",
+    agentSendSuccess: "已发送！薛先生将尽快与您联系，为您提供专属跟进服务。",
     agentSendError: "发送失败，请使用表单或直接发送邮件。",
     agentErrorFallback:
       "助手暂时不可用，请使用联系表单或直接发邮件给薛先生。",

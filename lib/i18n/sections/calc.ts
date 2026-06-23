@@ -21,16 +21,16 @@ export const calc = {
     feesWithUsLabel: "Fees with us at 1%",
     grossSavingsLabel: "Annual savings (ongoing)",
     monthlySavingsLabel: "Monthly savings",
-    firstYearLabel: "First-year savings",
-    firstYearSubLabel: "Includes $2,000 rebate on your first year's fees",
+    firstYearLabel: "Annual savings at 1%",
+    firstYearSubLabel: "New merchant bonus: first $2,000 in volume is fee-free",
     rebateNoteFullyRebated:
-      "Your first year's fees are fully rebated — you pay nothing in processing fees year one.",
+      "New merchant bonus: first $2,000 in volume is fee-free",
     perYear: "/ year",
     perMonth: "/ month",
 
     // Edge case when current rate ≤ 1%
     lowRateNote:
-      "Your current rate is already at or below 1%. You won't save on rate, but you still receive the $2,000 first-year rebate.",
+      "Your current rate is already at or below 1%. You won't save on rate, but your first $2,000 in volume is still processed fee-free.",
 
     // Disclaimer & CTA
     disclaimer:
@@ -56,16 +56,16 @@ export const calc = {
     feesWithUsLabel: "使用我们1%费率",
     grossSavingsLabel: "年节省金额（持续）",
     monthlySavingsLabel: "月节省金额",
-    firstYearLabel: "第一年节省总额",
-    firstYearSubLabel: "含首年手续费前 $2,000 返现",
+    firstYearLabel: "按 1% 年节省额",
+    firstYearSubLabel: "新商家福利：首 $2,000 交易额免手续费",
     rebateNoteFullyRebated:
-      "您第一年的手续费将全额返还——第一年处理费为零。",
+      "新商家福利：首 $2,000 交易额免手续费",
     perYear: "/ 年",
     perMonth: "/ 月",
 
     // Edge case when current rate ≤ 1%
     lowRateNote:
-      "您当前费率已低于或等于1%。虽然费率节省有限，但您仍可享受第一年 $2,000 手续费返现。",
+      "您当前费率已低于或等于 1%。虽然费率节省有限，但首 $2,000 交易额仍享免手续费优惠。",
 
     // Disclaimer & CTA
     disclaimer:

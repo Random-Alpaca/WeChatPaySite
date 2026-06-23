@@ -1,6 +1,6 @@
 export const nav = {
   en: {
-    brand: "Jacky Xue · WeChat Pay",
+    brand: "Jacky Xue · WeChat Pay & Alipay",
     benefits: "Benefits",
     pricing: "Pricing",
     calculator: "Savings",
@@ -12,7 +12,7 @@ export const nav = {
     switchTo: "中文",
   },
   zh: {
-    brand: "薛先生 · 微信支付",
+    brand: "薛先生 · 微信支付 & 支付宝",
     benefits: "优势",
     pricing: "费率",
     calculator: "节省",

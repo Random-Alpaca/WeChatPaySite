@@ -3,17 +3,17 @@ export const comparison = {
     eyebrow: "Comparison",
     title: "How 1% compares",
     subtitle:
-      "Canadian merchants typically pay 2.5–3.5% on card transactions. See how our flat 1% WeChat Pay rate stacks up.",
-    highlightLabel: "WeChat Pay (via us)",
+      "Canadian merchants typically pay 2.5–3.5% on card transactions. See how our flat 1% WeChat Pay & Alipay rate stacks up.",
+    highlightLabel: "WeChat Pay & Alipay (via us)",
     colMethod: "Payment method",
     colRate: "Typical rate",
     colMonthly: "On $10,000/mo",
     colSaving: "vs. our 1%",
     disclaimer:
-      "Competitor rates are typical industry figures for Canadian merchants and may vary by provider, volume, and contract terms. WeChat Pay rate is the flat 1% offered through this service.",
+      "Competitor rates are typical industry figures for Canadian merchants and may vary by provider, volume, and contract terms. WeChat Pay & Alipay rate is the flat 1% offered through this service.",
     rows: [
       {
-        method: "WeChat Pay (via us)",
+        method: "WeChat Pay & Alipay (via us)",
         rate: "1%",
         monthly: "$100",
         saving: "—",
@@ -60,8 +60,8 @@ export const comparison = {
     eyebrow: "费率对比",
     title: "1% 费率对比",
     subtitle:
-      "加拿大商家通常为刷卡交易支付 2.5–3.5% 的手续费。来看看我们 1% 统一费率的微信支付如何脱颖而出。",
-    highlightLabel: "微信支付（经我们）",
+      "加拿大商家通常为刷卡交易支付 2.5–3.5% 的手续费。来看看我们 1% 统一费率的微信支付与支付宝如何脱颖而出。",
+    highlightLabel: "微信支付 & 支付宝（经我们）",
     colMethod: "支付方式",
     colRate: "典型费率",
     colMonthly: "$10,000/月费用",
@@ -70,7 +70,7 @@ export const comparison = {
       "竞争对手费率为加拿大商家的典型行业数据，实际费率可能因服务商、交易量及合同条款而有所不同。微信支付费率为本服务提供的 1% 统一费率。",
     rows: [
       {
-        method: "微信支付（经我们）",
+        method: "微信支付 & 支付宝（经我们）",
         rate: "1%",
         monthly: "$100",
         saving: "—",

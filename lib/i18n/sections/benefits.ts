@@ -1,7 +1,7 @@
 export const benefits = {
   en: {
     eyebrow: "Benefits",
-    title: "Why Vancouver merchants choose WeChat Pay at 1%",
+    title: "Why Vancouver merchants choose WeChat Pay & Alipay at 1%",
     subtitle:
       "A straightforward, low-cost way to reach millions of Chinese-speaking customers — backed by a local partner who handles the setup for you.",
     items: [
@@ -12,22 +12,22 @@ export const benefits = {
           "Typical card processing costs 2.5–3%. At 1% flat, you keep significantly more of every sale — with no monthly fees or tiered rate surprises.",
       },
       {
-        stat: "1.3B+",
-        label: "WeChat users worldwide",
+        stat: "2B+",
+        label: "WeChat & Alipay users worldwide",
         description:
-          "WeChat Pay is the preferred payment method for Chinese-speaking shoppers globally. Accepting it puts your business in front of a massive, high-spending audience.",
+          "WeChat Pay and Alipay together reach over two billion users — the payment methods of choice for Chinese-speaking shoppers globally. Accepting both puts your business in front of a massive, high-spending audience.",
       },
       {
-        stat: "$2,000",
-        label: "Rebate for new merchants",
+        stat: "First $2K",
+        label: "Volume processed fee-free",
         description:
-          "As a new merchant, every dollar of transaction fees you pay is rebated back to you until you've received a cumulative $2,000 in rebates — a real head-start.",
+          "As a new merchant, your first $2,000 in WeChat Pay & Alipay volume is processed at no cost. A low-risk way to get started and see the value before you've spent a cent.",
       },
       {
         stat: "T+1",
         label: "Next-day settlement",
         description:
-          "Funds from WeChat Pay transactions settle to your Canadian bank account the next business day, so your cash flow stays healthy and predictable.",
+          "Funds settle to your Canadian bank account the next business day, so your cash flow stays healthy and predictable.",
       },
       {
         stat: "No lock-in",
@@ -39,7 +39,7 @@ export const benefits = {
   },
   zh: {
     eyebrow: "优势",
-    title: "为何选择 1% 微信支付",
+    title: "为何选择 1% 微信支付与支付宝",
     subtitle:
       "低成本、高效率地触达数百万华人消费者，由本地合作伙伴全程协助开通，省心省力。",
     items: [
@@ -50,22 +50,22 @@ export const benefits = {
           "一般银行卡刷卡手续费高达 2.5%–3%，而我们仅收取统一 1% 费率，无月费、无阶梯计费，每笔销售您都能多留一份利润。",
       },
       {
-        stat: "13亿+",
-        label: "微信全球用户",
+        stat: "20亿+",
+        label: "微信与支付宝全球用户",
         description:
-          "微信支付是全球华人消费者最常用的支付方式。开通微信收款，让您的店铺立即触达这一庞大的高消费客群。",
+          "微信支付与支付宝合计用户超过二十亿，是全球华人消费者最常用的两大支付方式。同时开通两者，让您的店铺立即触达这一庞大的高消费客群。",
       },
       {
-        stat: "$2,000",
-        label: "新商家返还上限",
+        stat: "首 $2K",
+        label: "交易额免手续费",
         description:
-          "作为新商家，您所支付的每一分手续费都将原额返还，直至累计返还金额达到 $2,000 为止，助您轻松起步。",
+          "作为新商家，您的首 $2,000 微信支付与支付宝交易额完全免手续费。零门槛体验，感受价值之后再说其他。",
       },
       {
         stat: "T+1",
         label: "次日结算",
         description:
-          "微信支付收款将于下一个工作日结算至您的加拿大银行账户，资金到账快速稳定，轻松管理现金流。",
+          "收款将于下一个工作日结算至您的加拿大银行账户，资金到账快速稳定，轻松管理现金流。",
       },
       {
         stat: "无绑定",

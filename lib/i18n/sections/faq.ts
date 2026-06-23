@@ -6,12 +6,16 @@ export const faq = {
     ctaLabel: "Still have questions? Contact us",
     items: [
       {
-        q: "Who is eligible to accept WeChat Pay?",
-        a: "Most registered businesses in Vancouver and the Greater Vancouver area can apply. You'll need a valid business registration and a Canadian bank account. We serve brick-and-mortar retailers, restaurants, service providers, online stores, and more. Contact us for a quick eligibility check.",
+        q: "Who is eligible to accept WeChat Pay and Alipay?",
+        a: "Most registered businesses in Vancouver and the Greater Vancouver area can apply for both WeChat Pay and Alipay. You'll need a valid business registration and a Canadian bank account. We serve brick-and-mortar retailers, restaurants, service providers, online stores, and more. Contact us for a quick eligibility check.",
       },
       {
-        q: "How does the first-$2,000-in-fees rebate work?",
-        a: "As a new merchant, the transaction fees you pay are rebated back to you until the total rebated amount reaches $2,000. At our 1% rate, that effectively covers your first $200,000 in WeChat Pay sales. The rebate is applied as a credit — you'll see it clearly on your statements.",
+        q: "How does the new merchant offer work?",
+        a: "As a new merchant, the fees generated on your first $2,000 in WeChat Pay & Alipay transaction volume are fully waived. At our 1% rate, that's up to $20 in savings — a no-cost way to get started and validate the integration before you've spent a cent.",
+      },
+      {
+        q: "Do you support Alipay as well as WeChat Pay?",
+        a: "Yes — through our IOTPay partnership, we can set you up to accept both WeChat Pay and Alipay under the same 1% flat rate. This covers the two dominant payment apps used by Chinese-speaking customers globally.",
       },
       {
         q: "How does settlement / payout work?",
@@ -27,7 +31,7 @@ export const faq = {
       },
       {
         q: "What is IOTPay and how does it fit in?",
-        a: "IOTPay is a licensed Canadian payment processor that provides the underlying WeChat Pay infrastructure. We are an authorized reseller, which means you get IOTPay's regulated, reliable processing combined with Jacky's local Vancouver service and support.",
+        a: "IOTPay is a licensed Canadian payment processor that provides the underlying WeChat Pay and Alipay infrastructure. We are an authorized reseller, which means you get IOTPay's regulated, reliable processing combined with Jacky's local Vancouver service and support.",
       },
       {
         q: "How do I get started?",
@@ -42,12 +46,16 @@ export const faq = {
     ctaLabel: "还有其他问题？联系我们",
     items: [
       {
-        q: "哪些商家可以申请开通微信支付？",
-        a: "温哥华及大温哥华地区的大多数已注册企业均可申请。您需要提供有效的营业执照及一个加拿大银行账户。我们服务实体零售店、餐厅、服务业、网店等各类商家。如需快速了解是否符合资格，欢迎随时联系我们。",
+        q: "哪些商家可以申请开通微信支付与支付宝？",
+        a: "温哥华及大温哥华地区的大多数已注册企业均可同时申请微信支付与支付宝。您需要提供有效的营业执照及一个加拿大银行账户。我们服务实体零售店、餐厅、服务业、网店等各类商家。如需快速了解是否符合资格，欢迎随时联系我们。",
       },
       {
-        q: "首 $2,000 手续费返还是如何运作的？",
-        a: "作为新商家，您所支付的每笔交易手续费将原额返还，直至累计返还金额达到 $2,000 为止。按我们 1% 的费率计算，这实际上相当于您前 $200,000 的微信支付销售额免手续费。返还金额将以信用额度形式体现在您的账单上，清晰可查。",
+        q: "新商家优惠是如何运作的？",
+        a: "作为新商家，您首 $2,000 微信支付与支付宝交易额产生的手续费将全额豁免。按 1% 费率计算，最多可节省 $20——零成本体验，在未花费一分钱之前就能验证收款效果。",
+      },
+      {
+        q: "除微信支付外，还支持支付宝吗？",
+        a: "支持。通过我们与 IOTPay 的合作，我们可以同时为您开通微信支付与支付宝，统一适用 1% 的费率。这两款应用覆盖全球华人消费者中最主流的两大支付方式。",
       },
       {
         q: "结算 / 提款是如何运作的？",
@@ -63,7 +71,7 @@ export const faq = {
       },
       {
         q: "IOTPay 是什么？它与我们的服务有何关系？",
-        a: "IOTPay 是一家持牌加拿大支付处理机构，负责提供微信支付的底层基础设施。我们是其授权经销商，这意味着您在享受 IOTPay 合规、稳定处理能力的同时，还能获得薛先生提供的温哥华本地化服务与支持。",
+        a: "IOTPay 是一家持牌加拿大支付处理机构，负责提供微信支付与支付宝的底层基础设施。我们是其授权经销商，这意味着您在享受 IOTPay 合规、稳定处理能力的同时，还能获得薛先生提供的温哥华本地化服务与支持。",
       },
       {
         q: "我该如何开始？",

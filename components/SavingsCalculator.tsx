@@ -18,7 +18,7 @@ const RATE_DEFAULT = 2.7;
 const RATE_STEP = 0.1;
 
 const OUR_RATE = 0.01; // 1%
-const REBATE_CAP = 2_000; // $2,000 first-year rebate
+const REBATE_CAP = 20; // fees waived on first $2,000 of volume (1% × $2,000)
 
 type Preset = "visamc" | "amex" | "custom";
 
@@ -402,18 +402,16 @@ export default function SavingsCalculator() {
               />
             </div>
 
-            {/* First-year hero card */}
+            {/* Annual savings hero card */}
             <div className="rounded-2xl bg-brand-500 p-6 shadow-card text-white">
               <p className="text-xs font-semibold uppercase tracking-wide text-brand-100">
                 {c.firstYearLabel}
               </p>
               <p className="mt-1 text-4xl font-bold tabular-nums">
-                {fmt(savings.firstYearTotalSavings)}
+                {fmt(savings.grossAnnualSavings)}
               </p>
               <p className="mt-1 text-sm text-brand-100">
-                {savings.firstYearFullyRebated
-                  ? c.rebateNoteFullyRebated
-                  : c.firstYearSubLabel}
+                {c.firstYearSubLabel}
               </p>
             </div>
 
