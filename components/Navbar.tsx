@@ -35,13 +35,7 @@ export default function Navbar() {
     >
       <nav className="container-content flex h-16 items-center justify-between">
         <a href="#top" className="flex items-center gap-2 font-bold text-ink-900">
-          <span
-            aria-hidden
-            className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand-500 text-white"
-          >
-            微
-          </span>
-          <span className="text-sm sm:text-base">{t.nav.brand}</span>
+          <span className="text-sm sm:text-base"></span>
         </a>
 
         <div className="hidden items-center gap-6 lg:flex">
